@@ -1,0 +1,17 @@
+.resultDisplay iframe {
+    max-width: 100%;
+}
+
+.resultsContainer {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.resultsButton {
+    margin-left: 2.5%;
+    max-width: 95%;
+}
+
+.actualResults {
+    height: 100vh;
+}
