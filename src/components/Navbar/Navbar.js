@@ -5,10 +5,10 @@ class Navbar extends React.Component {
   render () {
     return (
       <div className="Navbar">
-        <nav className="navbar navbar-inverse">
+        <nav className="navbar navbar">
           <div className="container-fluid">
             <div className="navbar-header">
-              <Link to="/" className="navbar-brand">LEO Events</Link>
+              <Link to="/" className="navbar-brand">Elvis Week 2020</Link>
             </div>
           </div>
         </nav>

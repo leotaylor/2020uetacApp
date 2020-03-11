@@ -7,11 +7,11 @@ import './App.css';
 class App extends Component {
   render () {
     return (
-      <div className="App">
+      <div className="App row">
         <BrowserRouter>
-          <div>
+          <div className="navbarContainer">
             <Navbar />
-            <div className="row">
+            <div>
               <Switch>
                 <Route
                   path="/results"
