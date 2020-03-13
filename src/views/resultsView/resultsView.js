@@ -10,9 +10,20 @@ class ResultsView extends React.Component {
     this.setState({showResults: !this.state.showResults});
   };
 
+  // componentDidMount = () => {
+  //   const isSafari = navigator.userAgent.indexOf("Safari") > -1;
+  //   // if ((isSafari) && (isSafari)) { isSafari = false; }
+  //   if (isSafari) {
+  //     if (!document.cookie.match(/^(.*;)?\s*fixed\s*=\s*[^;]+(.*)?$/)) {
+  //       document.cookie = 'fixed=fixed; expires=Tue, 19 Jan 2038 03:14:07 UTC; path=/';
+  //       // window.location.replace("https://pollev.com/leotaylor655");
+  //       document.cookie.replace("testCookie");
+  //     }
+  //   }
+  // }
+
   render () {
     const welcomeText = this.state.showResults ? "Thank You For Voting" : "Rank Your Favorite Performers";
-
     return (
       <div className="resultsContainer col-sm-12">
         <h1 className="resultsView">{welcomeText}</h1>
